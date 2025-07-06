@@ -8,6 +8,7 @@ add_subdirectory(external/glfw)
 include_directories(
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/external/glfw/include
+    ${PROJECT_SOURCE_DIR}/external/glm
 )
 
 
